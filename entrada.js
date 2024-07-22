@@ -39,13 +39,14 @@ function verificar() {
 
 function nomear() {
     let txtnome = document.querySelector('input#nome')
-    let res = document.querySelector('#res')
+    let res = document.querySelector('#res2')
     let sex = document.getElementsByName('radsex')
 
     if (txtnome.value.length == 0) {
         window.alert('[ERRO] Nome vazio! [ERRO]')
     } else {
         let nome = String(txtnome.value)
+        res.innerHTML = ''
     
         if (sex[0].checked) {
             res.innerHTML += `<p><br>Olá treinador ${nome}, bem vindo a pokedex!</p>`
