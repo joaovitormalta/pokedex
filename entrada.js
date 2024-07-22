@@ -54,7 +54,7 @@ function nomear() {
         }
     }
     let nxt = document.createElement('a')
-    nxt.setAttribute('href', 'index.html')
+    nxt.setAttribute('href', 'entrada.html')
     nxt.textContent = 'Clique aqui'
     nxt.style.marginTop = '10px'
     nxt.style.textDecoration = 'none'
